@@ -1,0 +1,114 @@
+[
+    {
+      "id": 101,
+      "nombre": "Laptop Gamer ASUS ROG Strix G15, Intel Core i7, 16GB RAM, 512GB SSD",
+      "precio": "$1250.00",
+      "imagen": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "electronica"
+    },
+    {
+      "id": 102,
+      "nombre": "Monitor Curvo de 27 pulgadas, 144Hz, 1ms, Full HD",
+      "precio": "$280.50",
+      "imagen": "https://images.unsplash.com/photo-1586259024095-2317188b4886?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "electronica"
+    },
+    {
+      "id": 103,
+      "nombre": "Teclado Mecánico RGB, switches Cherry MX Blue, anti-ghosting",
+      "precio": "$85.00",
+      "imagen": "https://images.unsplash.com/photo-1611739775369-041492b45e99?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "electronica"
+    },
+    {
+      "id": 104,
+      "nombre": "Auriculares Inalámbricos con cancelación de ruido, Bluetooth 5.0",
+      "precio": "$150.75",
+      "imagen": "https://images.unsplash.com/photo-1605463953569-2708304c0d12?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "electronica"
+    },
+    {
+      "id": 105,
+      "nombre": "Mouse Gamer Logitech G502 HERO, 16000 DPI, 11 botones programables",
+      "precio": "$55.99",
+      "imagen": "https://images.unsplash.com/photo-1629429402500-1c5c00b7978d?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "electronica"
+    },
+    {
+      "id": 201,
+      "nombre": "Vestido de Noche Elegante, corte A, color rojo, talla S",
+      "precio": "$75.00",
+      "imagen": "https://images.unsplash.com/photo-1620247737599-2a9c336b9c81?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "moda"
+    },
+    {
+      "id": 202,
+      "nombre": "Chaqueta de cuero para hombre, estilo vintage, talla L",
+      "precio": "$120.00",
+      "imagen": "https://images.unsplash.com/photo-1603502949704-5f5c35f0f354?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "moda"
+    },
+    {
+      "id": 203,
+      "nombre": "Pantalones de mezclilla skinny fit para mujer, color azul",
+      "precio": "$45.50",
+      "imagen": "https://images.unsplash.com/photo-1541099238128-d34360bf3d20?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "moda"
+    },
+    {
+      "id": 301,
+      "nombre": "Juego de Cuchillos de Cocina, acero inoxidable, 8 piezas",
+      "precio": "$60.00",
+      "imagen": "https://images.unsplash.com/photo-1627992984920-d3e921d72023?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "hogar"
+    },
+    {
+      "id": 302,
+      "nombre": "Licuadora Profesional de alta potencia, 1500W, 2 litros",
+      "precio": "$95.00",
+      "imagen": "https://images.unsplash.com/photo-1627943531124-df39912066c8?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "hogar"
+    },
+    {
+      "id": 303,
+      "nombre": "Aspiradora Robótica con mapeo inteligente, control por app",
+      "precio": "$250.00",
+      "imagen": "https://images.unsplash.com/photo-1584314227917-02755e6c1e34?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "hogar"
+    },
+    {
+      "id": 401,
+      "nombre": "Balón de fútbol Adidas, modelo oficial de la liga, talla 5",
+      "precio": "$30.00",
+      "imagen": "https://images.unsplash.com/photo-1577908354673-0498305c102a?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "deportes"
+    },
+    {
+      "id": 402,
+      "nombre": "Mancuernas ajustables, 2.5kg a 24kg, par",
+      "precio": "$199.99",
+      "imagen": "https://images.unsplash.com/photo-1596707328608-f1c5c6d3db86?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "deportes"
+    },
+    {
+      "id": 403,
+      "nombre": "Tapete de Yoga antideslizante, 6mm de grosor, color azul",
+      "precio": "$25.00",
+      "imagen": "https://images.unsplash.com/photo-1549414902-b25862080a97?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "deportes"
+    },
+    {
+      "id": 501,
+      "nombre": "Kit de pulido y encerado para autos, incluye cera y pulidora",
+      "precio": "$45.00",
+      "imagen": "https://images.unsplash.com/photo-1623912192931-e1e3b2e79606?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "vehiculos"
+    },
+    {
+      "id": 502,
+      "nombre": "Compresor de aire portátil para neumáticos, con manómetro",
+      "precio": "$35.00",
+      "imagen": "https://images.unsplash.com/photo-1591520110825-f71694f4b163?q=80&w=2670&auto=format&fit=crop",
+      "categoria": "vehiculos"
+    }
+  ]
