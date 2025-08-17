@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogar - Tu Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-image"></div>
+        <div class="header-search">
+            <form id="search-form" class="search-form">
+                <input type="text" placeholder="Buscar productos, marcas y más..." class="search-input">
+                <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+            </form>
+            <div class="exchange-rate-banner">Tasa del día: 1 USD = <span id="exchange-rate">Cargando...</span> MXN</div>
+        </div>
+    </section>
+    <main class="main-content">
+        <div class="categories-dropdown">
+            <button class="categories-btn"><i class="fas fa-list"></i> Categorías</button>
+            <div class="dropdown-content">
+                <a href="index.html">Inicio</a>
+                <a href="electronica.html">Electrónica</a>
+                <a href="moda.html">Moda</a>
+                <a href="hogar.html">Hogar</a>
+                <a href="deportes.html">Deportes</a>
+                <a href="vehiculos.html">Vehículos</a>
+            </div>
+        </div>
+        <h2 class="category-title">Productos de Moda</h2>
+        <section class="products-container">
+            <ul id="products-grid" class="products-grid"></ul>
+        </section>
+    </main>
+    <div class="floating-buttons">
+        <a href="https://t.me/lauritasexxx" target="_blank" class="floating-button telegram" aria-label="Ir a Telegram"><i class="fab fa-telegram-plane fa-2x"></i></a>
+        <a href="https://wa.me/584249556777?text=Hola,%20quisiera%20hacer%20un%20pedido." target="_blank" class="floating-button whatsapp" aria-label="Ir a WhatsApp"><i class="fab fa-whatsapp fa-2x"></i></a>
+        <button id="cart-btn" class="floating-button cart" aria-label="Abrir carrito de compras"><i class="fas fa-shopping-cart fa-2x"></i></button>
+    </div>
+    <div id="cart-modal-overlay" class="cart-modal-overlay">
+        <div id="cart-modal" class="cart-modal">
+            <div class="cart-modal-header">
+                <h3>Tu Carrito</h3>
+                <span id="cart-modal-close" class="cart-modal-close">&times;</span>
+            </div>
+            <ul id="cart-items" class="cart-items"></ul>
+            <div id="cart-summary" class="cart-summary">
+                <p id="empty-cart-message" class="empty-cart-message" style="display:none;">Tu carrito está vacío.</p>
+                <p class="cart-total">Total: <span id="cart-total-amount">$0</span></p>
+            </div>
+            <div class="cart-actions">
+                <button id="complete-payment-btn" class="complete-payment-btn">Completar Pago</button>
+                <button id="payment-methods-btn" class="payment-methods-btn">Métodos de Pago</button>
+                <div id="payment-options" class="payment-options">
+                    <p><i class="fab fa-paypal"></i> PayPal<br><i class="fas fa-dollar-sign"></i> Pesos Mexicanos<br><i class="fas fa-wallet"></i> Zelle<br><i class="fas fa-dollar-sign"></i> Pesos Argentinos<br><i class="fas fa-money-bill-wave"></i> Zinli<br><i class="fas fa-credit-card"></i> Wally<br><i class="fab fa-btc"></i> Binance</p>
+                </div>
+                <button id="empty-cart-btn" class="empty-cart-btn">Vaciar Carrito</button>
+            </div>
+        </div>
+    </div>
+    <div id="toast-message">Producto añadido al carrito</div>
+    <script src="script.js" defer></script>
+</body>
+</html>
